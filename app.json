@@ -1,13 +1,30 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logsHer/logs",
+    "pages/you/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "测试",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, 
+    {
+      "pagePath": "pages/logsHer/logs",
+      "text": "你的"
+    },
+    {
+      "pagePath": "pages/you/logs",
+      "text": "我的"
+    }
+  ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
