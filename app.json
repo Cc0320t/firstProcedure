@@ -7,24 +7,32 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "测试",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "首页"
-    }, 
-    {
-      "pagePath": "pages/logsHer/logs",
-      "text": "你的"
-    },
-    {
-      "pagePath": "pages/you/logs",
-      "text": "我的"
-    }
-  ]
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/blackHome.png"
+      }, 
+      {
+        "pagePath": "pages/logsHer/logs",
+        "text": "比心",
+        "iconPath": "./images/loveYou.png",
+        "selectedIconPath": "./images/heart.png"
+      },
+      {
+        "pagePath": "pages/you/logs",
+        "text": "我的",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/blackMy.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
