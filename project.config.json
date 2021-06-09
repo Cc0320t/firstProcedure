@@ -5,12 +5,12 @@
  },
  "setting": {
   "packNpmManually": true,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./miniprogram/"
-      }
-    ],
+  "packNpmRelationList": [
+   {
+    "packageJsonPath": "./package.json",
+    "miniprogramNpmDistDir": "./miniprogram_npm"
+   }
+  ],
   "urlCheck": true,
   "es6": true,
   "enhance": false,
@@ -40,7 +40,7 @@
   "useApiHook": true,
   "useApiHostProcess": false
  },
- "compileType": "miniprogramRoot",
+ "compileType": "miniprogram",
  "libVersion": "2.0.4",
  "appid": "wxb20790f5075555aa",
  "projectname": "leisure",

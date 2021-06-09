@@ -1,7 +1,6 @@
 {
   "usingComponents": {
-    "mp-navigation-bar": "../components/navigation-bar/navigation-bar"
-},
-  "navigationStyle": "custom",
+    "mp-navigation-bar": "weui-miniprogram/navigation-bar/navigation-bar"
+  },
   "navigationBarTitleText": "测试"
 }

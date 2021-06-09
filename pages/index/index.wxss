@@ -1,4 +1,7 @@
 /**index.wxss**/
+.test {
+  color: red;
+}
 .userinfo {
   display: flex;
   flex-direction: column;

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chs0320/firstProcedure/issues"
   },
-  "homepage": "https://github.com/chs0320/firstProcedure#readme"
+  "homepage": "https://github.com/chs0320/firstProcedure#readme",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.8"
+  }
 }
