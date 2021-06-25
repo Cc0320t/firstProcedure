@@ -1,4 +1,11 @@
 /**index.wxss**/
+.allContent {
+  height: 100%;
+}
+.poen {
+  text-align: center;
+  /* padding: ; */
+}
 .test {
   color: red;
 }

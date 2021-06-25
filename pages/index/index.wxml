@@ -1,15 +1,42 @@
-<view class="test">
-    测试小程序
-</view>
-<mp-navigation-bar
-    loading="{{loading}}"
-    show="{{show}}"
-    animated="{{animated}}"
-    color="{{color}}"
-    background="{{background}}"
-    title="UI组件库"
-    back="{{true}}">
-</mp-navigation-bar>
+<view class="allContent">
+    <view>        
+        <swiper indicator-dots="true" autoplay circular>
+            <swiper-item>
+                <image src="../../images/img.webp" style="width: 100%;"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../../images/img-1.jpg" style="width: 100%;"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../../images/img-2.jpg" style="width: 100%;"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="poen" bindtap="onClick">
+        <text>
+            {{textContent}}
+        </text>
+    </view>
+    <view>
+        <view>
+            
+        </view>
+    </view>
+    <view class="test" wx:for="{{ testArray }}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+        <text>我是{{ item.name + ',性别' }}</text>
+        <text>{{ item.gender + ',今年' }}</text>
+        <text>{{ item.age + '了' }}</text>
+        <text>{{ item.sexy }}</text>
+    </view>
+    <mp-navigation-bar
+        loading="{{loading}}"
+        show="{{show}}"
+        animated="{{animated}}"
+        color="{{color}}"
+        background="{{background}}"
+        title="UI组件库"
+        back="{{true}}">
+    </mp-navigation-bar>
     <view class="page__bd page__bd_spacing">
         <button class="weui-btn" type="primary" bindtap="toggleLoading">触发loading效果</button>
         <button class="weui-btn" type="primary" bindtap="changeColor">修改文字颜色</button>
@@ -17,4 +44,5 @@
         <button class="weui-btn" type="primary" bindtap="toggleShow">显示 / 隐藏</button>
         <button class="weui-btn" type="primary" bindtap="toggleAnimated">设置显示 / 隐藏opacity动画</button>
     </view>
-        <map bindmarkertap="markertap" longitude="113" latitude="23"></map>
+    <map bindmarkertap="markertap" longitude="113" latitude="23"></map>
+</view>

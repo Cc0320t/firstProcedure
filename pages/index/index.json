@@ -2,5 +2,5 @@
   "usingComponents": {
     "mp-navigation-bar": "weui-miniprogram/navigation-bar/navigation-bar"
   },
-  "navigationBarTitleText": "测试"
+  "navigationBarTitleText": "首页"
 }
