@@ -2,25 +2,53 @@
     <view>        
         <swiper indicator-dots="true" autoplay circular>
             <swiper-item>
-                <image src="../../images/img.webp" style="width: 100%;"></image>
+                <image
+                    src="../../images/img.jpg"
+                    style="width: 100%;height: 150px;"
+                    bindtap="handelClickOne"
+                >
+                </image>
             </swiper-item>
             <swiper-item>
-                <image src="../../images/img-1.jpg" style="width: 100%;"></image>
+                <image 
+                    src="../../images/img-1.jpg"
+                    style="width: 100%;height: 150px;"
+                    bindtap="handelClickTwo"
+                >
+                </image>
             </swiper-item>
             <swiper-item>
-                <image src="../../images/img-2.jpg" style="width: 100%;"></image>
+                <image
+                    mode="heightFix"
+                    src="../../images/hug.jpg"
+                    style="width: 100%;height: 150px;"
+                    bindtap="handelClickThree"
+                >
+                </image>
             </swiper-item>
         </swiper>
+    </view>
+    <view class="vessel-text">
+        <view class="classImage">
+            <view
+                id="detail"
+                class="image-vessel"            
+                wx:for="{{ imageText }}"
+                wx:key="id" 
+                wx:for-item="item"
+                wx:for-index="index"
+                bindtap="handelClickImage"
+                data-item="{{item}}"
+            >
+                <image src="{{ item.img }}" class="image-flex"></image>
+                <view class="contet-text">{{ item.text }}</view>
+            </view>
+        </view>
     </view>
     <view class="poen" bindtap="onClick">
         <text>
             {{textContent}}
         </text>
-    </view>
-    <view>
-        <view>
-            
-        </view>
     </view>
     <view class="test" wx:for="{{ testArray }}" wx:key="id" wx:for-index="idx" wx:for-item="item">
         <text>我是{{ item.name + ',性别' }}</text>

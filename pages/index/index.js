@@ -5,6 +5,49 @@ Page({
     background: '#f8f8f8',
     show: true,
     animated: false,
+    current: 0,
+    imageText: [
+      {
+        id: Date.now(),
+        text: '沉默的爱',
+        img: '../../images/flower.png'
+      },
+      {
+        id: Date.now(),
+        text: '唱你的歌',
+        img: '../../images/double.png' 
+      },
+      {
+        id: Date.now(),
+        text: '清澈水眸',
+        img: '../../images/man.png' 
+      },
+      {
+        id: Date.now(),
+        text: '平畴夕照',
+        img: '../../images/sea.png' 
+      },
+      {
+        id: Date.now(),
+        text: '求而不得',
+        img: '../../images/sundown.png' 
+      },
+      {
+        id: Date.now(),
+        text: '好好先生',
+        img: '../../images/sadness.png' 
+      },
+      {
+        id: Date.now(),
+        text: '情怀两不知',
+        img: '../../images/blackFace.png' 
+      },
+      {
+        id: Date.now(),
+        text: '来往不逢人',
+        img: '../../images/metro.png' 
+      }
+    ],
     textContent: '绿槐高柳咽新蝉。薰风初入弦。\n 碧纱窗下水沉烟。棋声惊昼眠。\n微雨过，小荷翻。榴花开欲然。\n玉盆纤手弄清泉。琼珠碎却圆。',
     textContent1: '林断山明竹隐墙。乱蝉衰草小池塘。\n翻空白鸟时时见，照水红蕖细细香。\n村舍外，古城旁。杖藜徐步转斜阳。\n 殷勤昨夜三更雨，又得浮生一日凉。',
     testArray: [
@@ -36,6 +79,21 @@ Page({
       textContent: this.data.textContent1,
       textContent1: this.data.textContent
     });
+  },
+  handelClickOne(e) {
+    console.log('点击事件');
+  },
+  handelClickTwo(e) {
+    console.log('点击事件1');
+  },
+  handelClickThree(e) {
+    console.log('点击事件2');
+  },
+  // handelChangeImg(e) {
+  //   console.log(e.detail);
+  // },
+  handelClickImage(e) {
+    console.log(e.currentTarget.dataset);
   },
   toggleLoading() {
     this.setData({

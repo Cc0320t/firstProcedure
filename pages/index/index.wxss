@@ -4,7 +4,30 @@
 }
 .poen {
   text-align: center;
-  /* padding: ; */
+}
+.vessel-text {
+  padding: 2%;
+}
+.classImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image-vessel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contet-text {
+  font-size: 30rpx;
+  background-image: linear-gradient(88deg,#3a3832,#fcc687);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.image-flex {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 10%;
 }
 .test {
   color: red;
