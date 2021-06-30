@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/chs0320/firstProcedure#readme",
   "dependencies": {
+    "@vant/weapp": "^1.6.9",
     "weui-miniprogram": "^1.0.8"
   }
 }

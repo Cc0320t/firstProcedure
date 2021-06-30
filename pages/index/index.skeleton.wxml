@@ -1,0 +1,94 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/6/29 上午10:01:53
+使用方法：
+在 F:\testCode\weixinleisure\pages\index\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 F:\testCode\weixinleisure\pages\index\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="allContent">
+      <view>
+        <swiper autoplay="false" circular="true" indicator-dots="true" current="0">
+          <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+            <image style="width: 100%;height: 150px;" class="sk-image"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="vessel-text">
+        <view class="classImage">
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">沉默的爱</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">唱你的歌</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">清澈水眸</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">平畴夕照</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">求而不得</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">好好先生</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">情怀两不知</view>
+          </view>
+          <view class="image-vessel" data-item="[object Object]" id="detail">
+            <image class="image-flex sk-image"></image>
+            <view class="contet-text sk-transparent sk-image">来往不逢人</view>
+          </view>
+        </view>
+      </view>
+      <view class="poen">
+        <text class="sk-transparent sk-text-14-2857-526 sk-text">
+            绿槐高柳咽新蝉。薰风初入弦。 碧纱窗下水沉烟。棋声惊昼眠。微雨过，小荷翻。榴花开欲然。玉盆纤手弄清泉。琼珠碎却圆。        </text>
+      </view>
+      <view is="miniprogram_npm/weui-miniprogram/navigation-bar/navigation-bar">
+        <view class="bar--weui-navigation-bar">
+          <view class="bar--weui-navigation-bar__placeholder bar--ios" style="padding-top: 20px;visibility: hidden;"></view>
+          <view class="bar--weui-navigation-bar__inner bar--ios" style="padding-top: 20px; color: #000;background: #f8f8f8;;;;">
+            <view class="bar--weui-navigation-bar__left" style="true">
+              <view class="bar--weui-navigation-bar__buttons">
+                <view class="bar--weui-navigation-bar__button bar--weui-navigation-bar__btn_goback" hover-class="weui-active"></view>
+              </view>
+            </view>
+            <view class="bar--weui-navigation-bar__center">
+              <text class="sk-transparent sk-text-14-2857-714 sk-text">UI组件库</text>
+            </view>
+            <view class="bar--weui-navigation-bar__right"></view>
+          </view>
+        </view>
+      </view>
+      <view class="page__bd page__bd_spacing">
+        <button class="weui-btn sk-transparent sk-button sk-pseudo sk-pseudo-circle" type="primary">触发loading效果</button>
+        <button class="weui-btn sk-transparent sk-button sk-pseudo sk-pseudo-circle" type="primary">修改文字颜色</button>
+        <button class="weui-btn sk-transparent sk-button sk-pseudo sk-pseudo-circle" type="primary">修改背景颜色</button>
+        <button class="weui-btn sk-transparent sk-button sk-pseudo sk-pseudo-circle" type="primary">显示 / 隐藏</button>
+        <button class="weui-btn sk-transparent sk-button sk-pseudo sk-pseudo-circle" type="primary">设置显示 / 隐藏opacity动画</button>
+      </view>
+      <view bindmarkertap="markertap" latitude="23" longitude="113" class="sk-image"></view>
+    </view>
+  </view>
+</template>

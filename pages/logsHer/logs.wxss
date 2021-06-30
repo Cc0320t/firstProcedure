@@ -1,8 +1,33 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.vie {
+  padding: 20rpx;
 }
-.log-item {
-  margin: 10rpx;
+.classsticky {
+  width: 100%;
+  height: 700rpx;
+  background-color: seagreen;
+  border-radius: 20rpx;
+  /* 把这个注释掉以后，这个粘性定位就相对于整个大盒子也就是logs页面
+  如果写上就是想对与这个盒子 */
+  overflow: scroll;
+}
+.stickybox {
+  background-color: red;
+  text-align: center;
+  height: 70rpx;
+  position: sticky;
+  top: 70rpx;
+}
+.boxone{
+  height: 150rpx;
+  background-color: slateblue;
+}
+.boxtwo{
+  height: 150rpx;
+  background-color: slategray;
+  position: sticky;
+  top: 220rpx;
+}
+.boxthree{
+  height: 150rpx;
+  background-color: rgb(193, 188, 223);
 }

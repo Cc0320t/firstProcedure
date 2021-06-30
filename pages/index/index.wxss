@@ -1,9 +1,8 @@
 /**index.wxss**/
+@import "./index.skeleton.wxss";
+
 .allContent {
   height: 100%;
-}
-.poen {
-  text-align: center;
 }
 .vessel-text {
   padding: 2%;
@@ -29,9 +28,11 @@
   height: 160rpx;
   border-radius: 10%;
 }
-.test {
-  color: red;
+.poen {
+  text-align: center;
+  margin-top: -40rpx;
 }
+
 .userinfo {
   display: flex;
   flex-direction: column;

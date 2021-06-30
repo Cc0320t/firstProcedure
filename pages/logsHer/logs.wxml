@@ -1,6 +1,15 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view>
+  <view class="box">hello world</view>
+  <!-- 自定义组件 -->
+  <mycomponent innerText="点我"></mycomponent>
+  <view class="vie">
+    <view class="classsticky">
+      <view class="stickybox">吸顶框</view>
+      <view class="boxone">123</view>
+      <view class="boxtwo">456</view>
+      <view class="boxthree">789</view>
+    </view>
+  </view>
 </view>
+
