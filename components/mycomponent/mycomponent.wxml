@@ -1,0 +1,5 @@
+<view>
+  <view class="Cli">
+    <button bind:tap="onClick" data-item="1" data-index="{{ 0 }}" type="primary">{{ innerText }}</button>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+.Cli {
+  color: red;
+  padding: 0 20rpx;
+}

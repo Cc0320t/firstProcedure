@@ -1,0 +1,5 @@
+/* 测试全局样式引用生效 */
+.box{
+  text-align: center;
+  color: red;
+}
