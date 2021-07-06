@@ -7,7 +7,7 @@
   background-color: seagreen;
   border-radius: 20rpx;
   /* 把这个注释掉以后，这个粘性定位就相对于整个大盒子也就是logs页面
-  如果写上就是想对与这个盒子 */
+  如果写上就是相对与这个盒子 */
   overflow: scroll;
 }
 .stickybox {

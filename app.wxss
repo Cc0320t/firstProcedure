@@ -1,2 +1,0 @@
-@import "/miniprogram_npm/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss";
-@import "/components/common.wxss"

@@ -3,6 +3,7 @@
   <view class="box">hello world</view>
   <!-- 自定义组件 -->
   <mycomponent innerText="点我"></mycomponent>
+  <myComen></myComen>
   <view class="vie">
     <view class="classsticky">
       <view class="stickybox">吸顶框</view>
@@ -10,6 +11,13 @@
       <view class="boxtwo">456</view>
       <view class="boxthree">789</view>
     </view>
+  </view>
+  <view>
+    <block wx:for="{{ testArr }}" wx:key="id">
+      <text >{{ item.id }}</text>
+      <view>{{ item.name }}</view>
+      <view>{{ item.age }}</view>
+    </block>
   </view>
 </view>
 

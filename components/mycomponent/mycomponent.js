@@ -10,7 +10,6 @@ Component({
   },
   methods: {
     onClick(e) {
-      console.log('e',e);
       wx.showToast({
         title: '成功',
         icon: 'success',

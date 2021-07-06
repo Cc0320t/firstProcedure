@@ -1,6 +1,14 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class=log-list">
+  <view class="flex-info">
+    <view>
+      <image src="../../images/loveYou.png" class="flex-img"></image>
+    </view>
+    <view class="flex-myself">
+      <view>小明</view>
+      <view>微信开发者</view>
+    </view>
+  </view>
+  <!-- 退出按钮 -->
+  <van-button type="danger" round size="large" bindtap="outLogin">退出登录</van-button>
 </view>
